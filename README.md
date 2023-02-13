@@ -1,23 +1,41 @@
-# CustomCommands for Minecraft
-A plugin for Minecraft servers that provides custom commands for server hosts to implement on their servers.
+# Minecraft Custom Command Plugin
+* A Minecraft plugin written in Java using the Spigot API that provides custom commands for server hosts to implement in their servers.
 
 # Features
-* Add custom commands to your Minecraft server with ease.
-* Easy-to-use interface for adding, modifying, and removing commands.
-* Flexible command syntax, allowing for a variety of parameters and options.
-* Option to set permissions for each custom command, so only certain players can use them.
+Adds custom commands to the Minecraft server.
+Easy-to-use interface for configuring and adding new commands.
+Option to set command permissions.
+Supports various command types, including player commands, console commands, and server commands.
+# Prerequisites
+A Minecraft server running Spigot.
+Java SE Development Kit 8 or later.
 # Installation
-* Download the plugin from the releases tab.
-* Place the jar file in the plugins folder of your Minecraft server.
-* Start the server to complete the installation.
+Clone the repository to your local machine.
+Build the plugin using the following command: ./gradlew build.
+Copy the compiled plugin JAR file to the plugins directory of your Minecraft server.
+Restart the server to enable the plugin.
 # Usage
-* Type /cc to open the CustomCommands interface.
-* Add a new command by clicking on the "Add Command" button.
-* Enter the command name, syntax, and description.
-* Optionally, set permissions for the command.
-* Save the command and it will be ready to use on your server.
-# Support
-* If you encounter any issues or have questions, please open an issue on the GitHub repository or contact us via email. We will do our best to assist you.
+Configure the plugin by editing the config.yml file in the plugins/CustomCommand directory.
+Add new custom commands by adding entries to the commands section of the config.yml file.
+Restart the server to apply the changes.
+The custom commands will be available for players to use in-game.
+# Configuration File Format
+The config.yml file contains the configuration for the plugin. The file has the following format:
 
-# Contributing
-* If you would like to contribute to the development of CustomCommands, please fork the repository and create a pull request with your changes. We welcome * all contributions!
+```yml
+commands:
+  command1:
+    type: player
+    permission: custom.command1
+    execution: say hello world
+  command2:
+    type: console
+    execution: say hello world
+  command3:
+    type: server
+    execution: say hello world
+```
+The commands section contains a list of custom commands.
+The type field specifies the type of the command (player, console, or server).
+The permission field specifies the permission required to execute the command (optional).
+The execution field specifies the command execution string.
