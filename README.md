@@ -11,16 +11,15 @@
 * Java SE Development Kit 8 or later.
 # Installation
 * Clone the repository to your local machine.
-* Build the plugin using the following command: ./gradlew build.
-* Copy the compiled plugin JAR file to the plugins directory of your Minecraft server.
+* From NewDev/target, move the .JAR file and put it in the plugins directory of yoyur Minecraft server.
 * Restart the server to enable the plugin.
 # Usage
 * Configure the plugin by editing the config.yml file in the plugins/CustomCommand directory.
 * Add new custom commands by adding entries to the commands section of the config.yml file.
 * Restart the server to apply the changes.
 * The custom commands will be available for players to use in-game.
-# Configuration File Format
-* The config.yml file contains the configuration for the plugin. The file has the following format:
+# Plugin File Format
+* The plugin.yml file contains the configuration for the plugin. The file has the following format:
 
 ```yml
 commands:
