@@ -1,0 +1,42 @@
+name: NewDev
+version: 'BETA'
+main: newdev.newdev.NewDev
+api-version: 1.19
+commands:
+  fly:
+    description: Toggles flying
+    usage: /<command>
+    aliases: f
+
+  god:
+    description: Become invincible
+    usage: /<command>
+
+  feed:
+    description: Become full
+    usage: /<command>
+    aliases: eat
+
+  printMessageFromConfig:
+  setFood:
+    description: Test
+
+  explode:
+    description: Test
+
+  repeat:
+    description: Repeats message
+
+  fart:
+    description: deadly fart
+
+  menu:
+    description: custom menu
+  setspawn:
+    description: sets spawnpoint
+
+
+
+
+
+

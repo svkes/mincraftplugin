@@ -1,0 +1,14 @@
+newdev/handlers/PlayerHandler.class
+newdev/newdev/NewDev.class
+newdev/handlers/TorchHandler.class
+newdev/util/ConfigUtil.class
+newdev/commands/RepeatCommand.class
+newdev/commands/GodCommand.class
+newdev/commands/FeedCommand.class
+newdev/commands/MenuCommand.class
+newdev/listeners/ShearSheepListener.class
+newdev/commands/FartCommand.class
+newdev/commands/FlyCommand.class
+newdev/commands/SetSpawnCommand.class
+newdev/listeners/XPBottleBreakListener.class
+newdev/commands/Explode.class
