@@ -11,7 +11,7 @@
 * Java SE Development Kit 8 or later.
 # Installation
 * Clone the repository to your local machine.
-* From NewDev/target, move the .JAR file and put it in the plugins directory of yoyur Minecraft server.
+* From NewDev/target, move the .JAR file and put it in the plugins directory of your Minecraft server.
 * Restart the server to enable the plugin.
 # Usage
 * Configure the plugin by editing the config.yml file in the plugins/CustomCommand directory.
